@@ -1,0 +1,105 @@
+body
+{
+
+}
+.homepage
+{
+ border-radius: 15px;
+ text-align: center;
+ background-color: black;
+ margin: 5% 30%;
+ padding: 20px;
+}
+
+.profile-page {
+  border-radius: 15px;
+  background-color: #000;
+  margin: 10% 20%;
+  padding: 50px 0;
+}
+
+.logo-img {
+  height: 125px;
+  width: 125px;
+  margin-bottom: 20px;
+}
+
+.head
+{
+  color: #E4F9F5;
+  font-size: 35px;
+  font-weight: 400;
+  font-family: 'Times New Roman', Times, serif; 
+  font-style: normal;
+}
+.button-container {
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn{
+  border-radius: 4px;
+  background-color: #40514E;
+  color: #E4F9F5;
+  border: none;
+  padding: 10px;
+  margin: 20px;
+}
+.btn:hover{
+  color: #40514E;
+  background-color: #E4F9F5;
+}
+
+.login-form {
+  margin: 20px;
+  padding: 0 30px;
+}
+
+.form-floating{
+  height: 60px;
+}
+
+.profile-btn {
+  width: 80%;
+}
+
+.btn-danger {
+  background-color: red;
+  color: white;
+}
+
+.no-border {
+  margin: -2px 0;
+  border-radius: 0;
+}
+
+.first-field {
+  border-radius: 5px 5px 0 0;
+}
+
+.last-field {
+  margin: -2px 0;
+  border-radius: 0 0 5px 5px;
+}
+table td,
+table th {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+thead th,
+tbody th {
+  color: #fff;
+}
+
+tbody td {
+  font-weight: 500;
+  color: rgba(255,255,255,.65);
+}
+
+.card {
+  border-radius: .5rem;
+}

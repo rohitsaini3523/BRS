@@ -19,8 +19,14 @@
         <div class="container">
             <div class="homepage">
                 <img class="logo-img" src="images/book.png" alt="screwdriver-wrench-img">
-                <h1 class="head">User Login</h1>
+                <h1 class="head">User Registeration</h1>
                 <form class="login-form" name="myform" method="post" action="employee_profile.php">
+                    <div class="form-floating" id="name">
+                        <input class="form-control first-field" type="text" name="fname" id="fname"
+                            placeholder="Name" required><b><br><span class="form_error"> </span></b>
+                        <label for="fname">Name</label>
+                    </div>
+
                     <div class="form-floating" id="email">
                         <input class="form-control first-field" type="email" name="femail" id="femail"
                             placeholder="E-mail" required><b><br><span class="form_error"> </span></b>
@@ -31,9 +37,8 @@
                             placeholder="Password"><b><br><span class="form_error"></span></b>
                         <label for="fpass">Password</label>
                     </div>
-                    <input type="submit" class="btn" value="  Login  " id="submitbutton">
-                    <a href="register.html" class="btn btn-primary">Register</a>
-                </form>
+                    <input type="submit" class="btn" value="  Register  " id="regesbutton">
+                     </form>
             </div>
         </div>
     </center>
